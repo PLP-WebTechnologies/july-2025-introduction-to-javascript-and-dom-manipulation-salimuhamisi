@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Fundamentals Project</h1>
+        <h4>Variables, Functions, Loops, DOM Manipulation</h4>
+    </header>
+
+    <main>
+        <!-- Part 1: Variables & Conditionals -->
+        <section id="part1">
+            <h2>Part 1: Check Voting Eligibility (Age > 18)</h2>
+            <label for="ageInput">Enter your age:</label>
+            <input type="number" id="ageInput">
+            <button onclick="checkAge()">Check Eligibility</button>
+            <p id="ageResult"></p>
+        </section>
+
+        <!-- Part 2: Functions -->
+        <section id="part2">
+            <h2>Part 2: Functions => Add two numbers</h2>
+            <label for="num1">Number 1:</label>
+            <input type="number" id="num1">
+            <label for="num2">Number 2:</label>
+            <input type="number" id="num2">
+            <button onclick="calculateSum()">Add Numbers</button>
+            <p id="sumResult"></p>
+        </section>
+
+        <!-- Part 3: Loop through all fruits -->
+        <section id="part3">
+            <h2>Part 3: Loop Through All fruits</h2>
+            <button onclick="showFruits()">Show Fruits</button>
+            <ul id="fruitList"></ul>
+        </section>
+
+        <!-- Part 4: DOM Manipulation -->
+        <section id="part4">
+            <h2>Part 4: Manipulate the DOM</h2>
+            <button onclick="changeTitle()">Change Page Title</button>
+            <button onclick="toggleTheme()">Toggle Dark Mode</button>
+            <button onclick="addNewItem()">Add New Item</button>
+            <ul id="itemList">
+                <li>First Item</li>
+                <li>Second Item</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; JavaScript Fundamentals Assignment, completed by Hamisi Salim</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
